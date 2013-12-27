@@ -72,10 +72,11 @@ function showCities() {
    
 
   $.ajax({ // ajax call starts
+
+               
+         url: 'http://johnah.byethost7.com/fred.php?callback=?', // JQuery loads serverside.php
         
-         url: 'http://johnah.byethost7.com/cities.php?callback=?', // JQuery loads serverside.php
-        
-          //url: 'cities.php', // JQuery loads serverside.php
+          //url: 'cities.php?callback=?', // JQuery loads serverside.php
           dataType: 'json', // Choosing a JSON datatype json for local jasonp for crossweb - NOT SURE ABOUT THIS!!!
           success: function(data) // Variable data contains the data we get from serverside
           {
