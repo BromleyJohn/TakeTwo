@@ -12,6 +12,9 @@ C:\PhoneGapApps\TakeTwo\platforms\android\bin\res\drawable-ldpi\icon.png \
 C:\PhoneGapApps\TakeTwo\platforms\android\bin\res\drawable-mdpi\icon.png \
 C:\PhoneGapApps\TakeTwo\platforms\android\bin\res\drawable-xhdpi\icon.png \
 C:\PhoneGapApps\TakeTwo\platforms\android\assets\www \
+C:\PhoneGapApps\TakeTwo\platforms\android\assets\www\bert.php \
+C:\PhoneGapApps\TakeTwo\platforms\android\assets\www\cities.aspx \
+C:\PhoneGapApps\TakeTwo\platforms\android\assets\www\cities.php \
 C:\PhoneGapApps\TakeTwo\platforms\android\assets\www\config.xml \
 C:\PhoneGapApps\TakeTwo\platforms\android\assets\www\cordova.js \
 C:\PhoneGapApps\TakeTwo\platforms\android\assets\www\cordova_plugins.js \
@@ -21,6 +24,8 @@ C:\PhoneGapApps\TakeTwo\platforms\android\assets\www\img \
 C:\PhoneGapApps\TakeTwo\platforms\android\assets\www\index.html \
 C:\PhoneGapApps\TakeTwo\platforms\android\assets\www\js \
 C:\PhoneGapApps\TakeTwo\platforms\android\assets\www\phonegap.js \
+C:\PhoneGapApps\TakeTwo\platforms\android\assets\www\razor.cshtml \
+C:\PhoneGapApps\TakeTwo\platforms\android\assets\www\razor.html \
 C:\PhoneGapApps\TakeTwo\platforms\android\assets\www\res \
 C:\PhoneGapApps\TakeTwo\platforms\android\assets\www\spec \
 C:\PhoneGapApps\TakeTwo\platforms\android\assets\www\spec.html \

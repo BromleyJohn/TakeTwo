@@ -66,3 +66,68 @@ function changeColour(newColour) {
 $('#para1').click(function(){
    $('#para1').hide();
 });
+
+
+function showCities() {
+   
+
+  $.ajax({ // ajax call starts
+
+               
+         url: 'http://johnah.byethost7.com/fred.php?callback=?', // JQuery loads serverside.php
+        
+          //url: 'cities.php?callback=?', // JQuery loads serverside.php
+          dataType: 'json', // Choosing a JSON datatype json for local jasonp for crossweb - NOT SURE ABOUT THIS!!!
+          success: function(data) // Variable data contains the data we get from serverside
+          {
+          $('#cities').html(''); // Clear #bands div
+          for (var i in data) {
+             $('#cities').append(data[i] + '<br/>');
+          }
+
+          }
+    });
+
+}      
+
+
+function addCity() {
+   
+
+  $.ajax({ // ajax call starts
+
+         
+         //type: "GET",
+         //url: "http://www.my-server.de/file.php",
+         url: 'http://johnah.byethost7.com/bert.php?callback=?', // JQuery loads serverside.php
+         
+         //url: "bert.php",
+         data: { 'dataString': "Adelaide" },
+         cache: false,
+         success: function()
+           {
+              alert("City Submitted");
+           },
+         error: function()
+           {
+              alert("Error");
+           }
+
+
+
+         //url: 'http://johnah.byethost7.com/fred.php?callback=?', // JQuery loads serverside.php
+        
+          //url: 'cities.php?callback=?', // JQuery loads serverside.php
+          //dataType: 'json', // Choosing a JSON datatype json for local jasonp for crossweb - NOT SURE ABOUT THIS!!!
+          //success: function(data) // Variable data contains the data we get from serverside
+          //{
+          //$('#cities').html(''); // Clear #bands div
+          //for (var i in data) {
+          //   $('#cities').append(data[i] + '<br/>');
+          //}
+
+         // }
+    });
+
+}      
+
