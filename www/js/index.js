@@ -102,7 +102,7 @@ function addCity() {
          url: 'http://johnah.byethost7.com/bert.php?callback=?', // JQuery loads serverside.php
          
          //url: "bert.php",
-         data: { 'dataString': "Montreal" },
+         data: { 'dataString': "Adelaide" },
          cache: false,
          success: function()
            {
