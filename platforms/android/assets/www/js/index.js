@@ -93,40 +93,27 @@ function showCities() {
 
 function addCity() {
    
+  var varCity = $("#txtCity").val(); 
+  //alert(varCity);
 
   $.ajax({ // ajax call starts
 
-         
+  //       
          //type: "GET",
-         //url: "http://www.my-server.de/file.php",
          url: 'http://johnah.byethost7.com/bert.php?callback=?', // JQuery loads serverside.php
-         
          //url: "bert.php",
-         data: { 'dataString': "Adelaide" },
+         //data: { 'dataString': "Adelaide" },
+         data: { 'dataString': varCity },
+         
          cache: false,
          success: function()
            {
-              alert("City Submitted");
+              alert("Added " + varCity);
            },
          error: function()
            {
               alert("Error");
            }
-
-
-
-         //url: 'http://johnah.byethost7.com/fred.php?callback=?', // JQuery loads serverside.php
-        
-          //url: 'cities.php?callback=?', // JQuery loads serverside.php
-          //dataType: 'json', // Choosing a JSON datatype json for local jasonp for crossweb - NOT SURE ABOUT THIS!!!
-          //success: function(data) // Variable data contains the data we get from serverside
-          //{
-          //$('#cities').html(''); // Clear #bands div
-          //for (var i in data) {
-          //   $('#cities').append(data[i] + '<br/>');
-          //}
-
-         // }
     });
 
 }      
